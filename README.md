@@ -1,4 +1,4 @@
-# Easy Poller
+# Easy Poller [![Build Status](https://travis-ci.org/fabrouy/easy_poller.svg?branch=master)](https://travis-ci.org/fabrouy/easy_poller)
 
 Very simple helper to poll for changes. Just give it an URL and voila.
 
