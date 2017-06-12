@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Very easy to use helper to poll for changes. Just give it an URL and voila.}
   spec.license       = "MIT"
 
+
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   # if spec.respond_to?(:metadata)
@@ -21,6 +22,7 @@ Gem::Specification.new do |spec|
   #     "public gem pushes."
   # end
 
+  spec.required_ruby_version = '>= 2.0.0'
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
